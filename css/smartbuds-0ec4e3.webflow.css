@@ -2248,3 +2248,33 @@ blockquote {
     grid-column: 6 / 9;
   }
 }
+
+.big-text.features-header {
+  font-size: 24vw;
+  letter-spacing: -1.3rem;
+}
+
+.big-text.features-header .other-font.big {
+  font-size: 25vw;
+}
+
+@media screen and (max-width: 991px) {
+  .big-text.features-header {
+    font-size: 27vw;
+    letter-spacing: -1rem;
+  }
+  .big-text.features-header .other-font.big {
+    font-size: 28vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .big-text.features-header {
+    font-size: 29vw;
+    letter-spacing: -0.8rem;
+    margin-left: -10vw;
+  }
+  .big-text.features-header .other-font.big {
+    font-size: 30vw;
+  }
+}
